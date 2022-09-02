@@ -20,7 +20,8 @@ def calculate(l):
   print(colvariance)
 
   d = {
-    'mean': [list(rowmean), list(colmean)]
+    'mean': [list(rowmean), list(colmean)],
+    'variance': [list(rowvariance), list(colvariance)]
   }
 
   print(d)
