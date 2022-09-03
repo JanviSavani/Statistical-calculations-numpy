@@ -48,5 +48,18 @@ def calculate(l):
   else:
     print('List must contain nine numbers.')
 
-result = calculate([0,1,2,3,4,5,6,7,8])
-print(result)
+#result = calculate([0,1,2,3,4,5,6,7,8])
+#print(result)
+
+lst = []
+  
+# number of elements as input
+print("enter 9 elements to form 3x3 matrix: ")
+  
+# iterating till the range
+for i in range(0, 9):
+    ele = int(input())
+    lst.append(ele)
+
+list_result = calculate(lst)
+print("input result --", list_result)
