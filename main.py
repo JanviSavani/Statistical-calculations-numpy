@@ -48,9 +48,6 @@ def calculate(l):
   else:
     print('List must contain nine numbers.')
 
-#result = calculate([0,1,2,3,4,5,6,7,8])
-#print(result)
-
 lst = []
   
 # number of elements as input
@@ -62,4 +59,4 @@ for i in range(0, 9):
     lst.append(ele)
 
 list_result = calculate(lst)
-print("input result --", list_result)
+print(list_result)
